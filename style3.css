@@ -1,0 +1,89 @@
+p {
+    font-family: Poppins;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu a,
+#menu3 li a {
+    color: black;
+    padding: 15px 10px;
+    display: block;
+}
+
+#menu3{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu3 li{
+    display: inline-block;
+}
+
+#menu3 li a:hover,
+#menu a:hover,
+.skat-1,
+.bb:hover,
+.right,
+.skate1 {
+    background-color: orangered;
+    color: white;
+} 
+
+.skate2,
+.bo4 {
+    background-color: blue;
+    color: white;
+}
+
+.skat {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.test {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    text-align: center;
+    object-fit: cover;
+    padding-top: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: auto;
+}
+
+.skat-2 {
+    background-color: white;
+    color: black;
+}
+
+.less {
+    height: 60px;
+    width: 60px;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+    font-size: 40px;
+    margin-bottom: -20px;
+    line-height: 0;
+}
